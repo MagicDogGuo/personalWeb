@@ -49,7 +49,7 @@ body {
   }
   
   .top-container {
-    background-color: #c1dbf0;
+    /* background-color: #c1dbf0; */
     position: relative;
     padding-top: 100px;
     padding-bottom: 10px;
@@ -61,7 +61,7 @@ body {
   }
   
   .bottom-container {
-    background-color: #c1dbf0;
+    /* background-color: #c1dbf0; */
     padding: 50px 0 10px;
   }
   
@@ -154,3 +154,20 @@ body {
     row-gap: 2rem;
   }
   
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #265195, #c1dbf0);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
