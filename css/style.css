@@ -6,14 +6,14 @@ body {
   }
   
   h1 {
-    color: #5981be;
+    color: #fcfcfc;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: "Sacramento", cursive;
   }
   
   h2 {
-    color: #5981be;
+    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
@@ -38,14 +38,14 @@ body {
   }
   
   a {
-    color: #265195;
+    color: #f6f7f8;
     font-family: "Montserrat", sans-serif;
     margin: 10px 20px;
     text-decoration: none;
   }
   
   a:hover {
-    color: #eaf6f6;
+    color: #87a9e9;
   }
   
   .top-container {
